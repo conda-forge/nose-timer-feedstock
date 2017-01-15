@@ -11,6 +11,18 @@ Summary: A timer plugin for nosetests.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose-timer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose-timer-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose-timer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose-timer-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose-timer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-timer-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose-timer/badges/version.svg)](https://anaconda.org/conda-forge/nose-timer)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose-timer/badges/downloads.svg)](https://anaconda.org/conda-forge/nose-timer)
+
 Installing nose-timer
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `nose-timer` available on your pla
 ```
 conda search nose-timer --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose-timer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose-timer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose-timer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose-timer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose-timer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-timer-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose-timer/badges/version.svg)](https://anaconda.org/conda-forge/nose-timer)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose-timer/badges/downloads.svg)](https://anaconda.org/conda-forge/nose-timer)
 
 
 Updating nose-timer-feedstock

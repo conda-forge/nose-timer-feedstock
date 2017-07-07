@@ -34,6 +34,9 @@ test:
   imports:
     - nosetimer
 
+  commands:
+    - nosetests --with-timer
+
 about:
   home: https://github.com/mahmoudimus/nose-timer
   license: MIT

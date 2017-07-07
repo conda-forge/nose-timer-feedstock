@@ -30,6 +30,7 @@ test:
 about:
   home: https://github.com/mahmoudimus/nose-timer
   license: MIT or BSD 4-Clause
+  license_file: LICENSE
   summary: A timer plugin for nosetests.
 
 extra:

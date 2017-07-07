@@ -3,7 +3,7 @@ About nose-timer
 
 Home: https://github.com/mahmoudimus/nose-timer
 
-Package license: MIT or BSD 4-Clause
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 

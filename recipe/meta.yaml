@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: nose-timer
@@ -7,10 +7,10 @@ package:
 source:
   fn: nose-timer-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-timer/nose-timer-{{ version }}.tar.gz
-  sha256: 1253a20295d9c75a9f87b8c898d9b6003ae99d5d0fe95c3dd978954329b0919f
+  sha256: b76baab514aff39ac567455aaecd63b881127f922e9632b1f814f96575f562e8
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/mahmoudimus/nose-timer
-  license: MIT or BSD 4-Clause
+  license: MIT
   license_file: LICENSE
   summary: A timer plugin for nosetests.
 

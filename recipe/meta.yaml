@@ -7,7 +7,7 @@ package:
 source:
   fn: nose-timer-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-timer/nose-timer-{{ version }}.tar.gz
-  md5: 739fb9901de979e9f52ecdca272c105d
+  sha256: 1253a20295d9c75a9f87b8c898d9b6003ae99d5d0fe95c3dd978954329b0919f
 
 build:
   number: 0

@@ -8,9 +8,16 @@ source:
   fn: nose-timer-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-timer/nose-timer-{{ version }}.tar.gz
   sha256: b76baab514aff39ac567455aaecd63b881127f922e9632b1f814f96575f562e8
+  patches:
+    ############################################################
+    # Drop unneeded ordereddict dependency.                    #
+    #                                                          #
+    # xref: https://github.com/mahmoudimus/nose-timer/pull/84  #
+    ############################################################
+    - PR_84.diff
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,6 +33,9 @@ requirements:
 test:
   imports:
     - nosetimer
+
+  commands:
+    - nosetests --with-timer
 
 about:
   home: https://github.com/mahmoudimus/nose-timer

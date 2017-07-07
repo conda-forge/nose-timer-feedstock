@@ -1,0 +1,28 @@
+diff --git nosetimer/plugin.py nosetimer/plugin.py
+index ef28e11..d093a51 100644
+--- nosetimer/plugin.py
++++ nosetimer/plugin.py
+@@ -12,10 +12,7 @@
+ except ImportError:
+     import queue as Queue
+ 
+-try:
+-    from collections import OrderedDict
+-except ImportError:
+-    from ordereddict import OrderedDict
++from collections import OrderedDict
+ 
+ 
+ # define constants
+diff --git setup.py setup.py
+index 6a55b82..d249325 100755
+--- setup.py
++++ setup.py
+@@ -27,7 +27,6 @@
+     install_requires=[
+         'nose',
+         'termcolor',
+-        'ordereddict',
+     ],
+     license='MIT',
+     entry_points={

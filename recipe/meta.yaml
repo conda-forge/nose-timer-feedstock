@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.3" %}
 
 package:
   name: nose-timer
@@ -7,7 +7,7 @@ package:
 source:
   fn: nose-timer-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-timer/nose-timer-{{ version }}.tar.gz
-  sha256: b76baab514aff39ac567455aaecd63b881127f922e9632b1f814f96575f562e8
+  sha256: 84743e05fc940868f5b6e379ed2a3f7da3fa49cdd72c3f531c893868b12adf41
   patches:
     ############################################################
     # Drop unneeded ordereddict dependency.                    #
@@ -17,7 +17,7 @@ source:
     - PR_84.diff
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:

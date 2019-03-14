@@ -1,4 +1,4 @@
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 
 package:
   name: nose-timer
@@ -7,7 +7,7 @@ package:
 source:
   fn: nose-timer-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose-timer/nose-timer-{{ version }}.tar.gz
-  sha256: 22e080dd4021429086123d40be3e1b4b4c5ec8ec2e421be392f3e940cf643612
+  sha256: 647eeac86359188ecf02c75b0ab49d20ad10c41814ee89af30fcaf8d109b9f17
 
 build:
   noarch: python

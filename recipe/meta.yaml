@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nose-timer-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 8f70d103b7ffd9122a589de0df9d037a7d967519bf6de122621d2186609b9e3a
 
 build:
@@ -20,8 +20,10 @@ requirements:
     - pip
     - python >=3.5
   run:
+    - colorama
     - nose
     - python >=3.5
+    - termcolor
 
 test:
   imports:
